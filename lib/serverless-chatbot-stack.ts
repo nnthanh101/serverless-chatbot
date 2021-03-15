@@ -1,9 +1,19 @@
-import * as cdk from '@aws-cdk/core';
+import { Construct, Stack, StackProps } from '@aws-cdk/core';
 
-export class ServerlessChatbotStack extends cdk.Stack {
-  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
+export interface ServerlessChatbotStackProps extends StackProps {
+  readonly solutionID:   string;
+  readonly solutionName: string;
+}
+
+/**
+ * 
+ */
+export class ServerlessChatbotStack extends Stack {
+  constructor(scope: Construct, id: string, props: ServerlessChatbotStackProps) {
     super(scope, id, props);
 
     // The code that defines your stack goes here
+    
+
   }
 }

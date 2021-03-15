@@ -21,7 +21,7 @@ echo "Upgrade lts/fermium nodejs12.x & Installing CDK ..."
 # nvm uninstall v10.24.0
 
 npm update -g
-npm install -g aws-cdk@1.90.1
+npm install -g aws-cdk@1.84.0
 
 sudo pip3 install boto3
 echo "Uninstall the AWS CLI version 1 using pip"
