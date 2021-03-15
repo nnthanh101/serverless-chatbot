@@ -5,10 +5,6 @@
 
 ![Architecture](README/architecture.png)
 
- quickly assemble  applications using familiar programming tools. 
-
-AWS Solutions Constructs are vetted architecture patterns, available as an open-source extension of the AWS Cloud Development Kit (CDK), that can be  Below you will find a directory of the patterns made available through AWS Solutions Constructs.
-
 [AWS CDK Solutions Constructs](https://aws.amazon.com/solutions/constructs/patterns) are pre-built, multi-service architecture patterns that allow customers to easily assembled declaritively to create a well-architected & production-ready workload.
 
 AWS Solutions Constructs are available as an open-source extension of the AWS Cloud Development Kit (CDK). This solution uses the following AWS CDK Constructs:
